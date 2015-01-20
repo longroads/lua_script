@@ -1,4 +1,4 @@
-根据以前游戏中脚本逻辑修改而成，可解析类似如下的脚本
+####根据以前游戏中脚本逻辑修改而成，可解析类似如下的脚本
 
 ```
 a = 10
@@ -17,5 +17,5 @@ func2(5,4)
 ```
 
 
-2. 词法分析跟基于[Anaminus/luatext](https://github.com/Anaminus/luatext)，Thanks a lot!!!
+####词法分析跟基于[Anaminus/luatext](https://github.com/Anaminus/luatext)，Thanks a lot!!!
 
