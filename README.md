@@ -14,7 +14,7 @@ else
 }
 func1(4, 5)
 func2(5,4)
-<pre><code>
+</pre></code>
 
 2. 词法分析跟基于Anaminus/luatext（https://github.com/Anaminus/luatext），Thanks a lot!!!
 
