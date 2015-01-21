@@ -120,7 +120,7 @@ local CommandActions = {
 
 function script_parse.Parse(protoFile,protoTableFile)
   --utils.read_from_file("./abc.txt","abcd")
-  output_file = protoTableFile
+  output_file = protoTableFile..".lua"
   local str = utils.read_from_file(protoFile)
 
   local restr, err = pcall(function()

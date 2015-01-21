@@ -8,15 +8,15 @@ function lua_script:scan_file(fileName)
   require 'script_parser'
   
   local fullFileName = fileName..".script"
-  local outLuaFileName = fileName.."_out"
+  local outLuaFile = fileName.."_out"
   
-  local parseReult = script_parse.Parse(fullFileName,outLuaFileName)
+  local parseReult = script_parse.Parse(fullFileName,outLuaFile)
   if parseReult == false then 
     logerror("Error! parse proto failed!!!fileName:"..fileName)  
     return false
   end
   log("scan_file success:"..fileName)
-  return true,outLuaFileName
+  return true,outLuaFile
 end
 
 
