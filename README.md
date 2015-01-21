@@ -20,17 +20,34 @@ func1(4, 5)
 func2(5,4)
 ```
 
+####使用方式
+主要分为三步：
+```
+  -- 加载接口文件
+  require "lua_script"
+
+  -- 设置脚本文件，执行生成lua代码
+  local script_name = "script_example"
+  
+  -- 执行脚本文件
+  lua_script:execute(outFileName)
+```
+
+一般脚本生成lua之后进行编译和打包，运行时加载后执行脚本即可。
+
 ####文件列表
 ```
+lua_script.lua:接口文件
+
 script_parser.lua： 脚本解析
 script_exec.lua：解析后执行处理
 script_funcs.lua： 所需函数定义文件
 global.lua：全局定义
 dump.lua：脚本解析后[写文件方法](http://blog.csdn.net/lixianlin/article/details/24739499)
 
-script_proto.txt: 脚本例子
-script_proto_parsed.lua： 脚本例子解析后输出文件
-mainTest.lua：例子运行入口
+script_example.script: 脚本例子
+script_example_out.lua： 脚本例子解析后输出文件
+example.lua：使用例子
 ```
 
 ####基于[Anaminus/luatext](https://github.com/Anaminus/luatext)，Thanks a lot!!!
