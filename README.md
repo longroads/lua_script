@@ -57,3 +57,5 @@ example.lua：使用例子
 
 ####基于[Anaminus/luatext](https://github.com/Anaminus/luatext)，Thanks a lot!!!
 
+####后端erlang脚本处理可参考
+	[ErlScript](https://github.com/zhangrongjie/ErlScript)
