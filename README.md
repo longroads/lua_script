@@ -21,6 +21,7 @@ func2(5,4)
 ```
 
 ####文件列表
+```
 script_parser.lua： 脚本解析
 script_exec.lua：解析后执行处理
 script_funcs.lua： 所需函数定义文件
@@ -30,7 +31,7 @@ dump.lua：脚本解析后[写文件方法](http://blog.csdn.net/lixianlin/artic
 script_proto.txt: 脚本例子
 script_proto_parsed.lua： 脚本例子解析后输出文件
 mainTest.lua：例子运行入口
-
+```
 
 ####基于[Anaminus/luatext](https://github.com/Anaminus/luatext)，Thanks a lot!!!
 
