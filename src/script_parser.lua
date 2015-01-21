@@ -1,5 +1,5 @@
 local luatext = require 'luatext'
-local Script = {}
+script_parse = {}
 
 function ToString(obj)
   local t = type(obj)
@@ -118,7 +118,7 @@ local CommandActions = {
 --end
 
 
-function Script.Parse(protoFile,protoTableFile)
+function script_parse.Parse(protoFile,protoTableFile)
   --utils.read_from_file("./abc.txt","abcd")
   output_file = protoTableFile
   local str = utils.read_from_file(protoFile)
@@ -132,5 +132,3 @@ function Script.Parse(protoFile,protoTableFile)
   end
   return true
 end
-
-return Script

@@ -1,4 +1,4 @@
-local script_exec = {}
+script_exec = {}
 local vardefs = {}
 
 local handlers = {}
@@ -187,7 +187,3 @@ function script_exec.execute(protoLuaFile)
   end
   return true
 end
-
-
-
-return script_exec
