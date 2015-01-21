@@ -28,6 +28,7 @@ func2(5,4)
 
   -- 设置脚本文件，执行生成lua代码
   local script_name = "script_example"
+  local result,outFileName = lua_script:scan_file(script_name)
   
   -- 执行脚本文件
   lua_script:execute(outFileName)
